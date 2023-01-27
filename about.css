@@ -1,0 +1,60 @@
+
+.background-intro{
+  height: 500px;
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2017/10/12/22/17/business-2846221_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background--filter{
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  filter: opacity(0.8);
+  color: aliceblue;
+}
+
+.box{
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.about-me-background{
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qa-background{
+  height: 700px;
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: black;
+}
+
+.last-background-image{
+  height: 400px;
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867759_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-container{
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.l1,.l2,.l3{
+  list-style: none;
+}
+
+a:link { text-decoration: none;
+}

@@ -1,0 +1,29 @@
+.intro-page{
+  height: 500px;
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2019/09/13/14/22/road-sign-4474011_640.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.intro-page-dark-filter{
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  filter: opacity(0.8);
+}
+
+
+.text-container{
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.l1,.l2,.l3{
+  list-style: none;
+}
+
+a:link { text-decoration: none;
+}

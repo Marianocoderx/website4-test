@@ -1,0 +1,46 @@
+.form-background{
+  height: 600px;
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2021/12/08/19/34/laptop-6856557_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form-background-filter{
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  filter: opacity(0.8);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container{
+  height: 500px;
+  width: 60%;
+  color: white;
+  background-color: black;
+  filter: opacity(0.9);
+  border-radius: 7px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text-container{
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.l1,.l2,.l3{
+  list-style: none;
+}
+
+a:link { text-decoration: none;
+}
